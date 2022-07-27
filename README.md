@@ -25,3 +25,8 @@ On some OS, it is sometimes better to run :
 python setup.py install --user --prefix=
 ```
 
+On a Linux distribution:
++ We must run the above first in the `base` conda env, then the module is put to: ~/.local/lib/pythonX.Y/site-packages/
++ Now can run `okada4py` in your `base` conda env.
++ Further, if you want to use `okada4py` in other conda envs, `conda activate that_specific_env` and run the above `setup.py` again in that specific env. This should do it!
+

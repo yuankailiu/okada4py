@@ -1,0 +1,3 @@
+build/temp.linux-x86_64-cpython-310/src/disloc3d.o: src/disloc3d.cpp \
+ src/dc3d.h src/disloc3d.h
+commandline: -Isrc/ -I/home/ykliu/apps/miniconda3/envs/csi/lib/python3.10/site-packages/numpy/core/include/numpy -I/home/ykliu/apps/miniconda3/envs/csi/lib/python3.10/site-packages/numpy/core/include -Ibuild/src.linux-x86_64-3.10/numpy/distutils/include -I/home/ykliu/apps/miniconda3/envs/csi/include/python3.10 -c-msse -msse2 -msse3-Isrc/ -I/home/ykliu/apps/miniconda3/envs/csi/lib/python3.10/site-packages/numpy/core/include/numpy -I/home/ykliu/apps/miniconda3/envs/csi/lib/python3.10/site-packages/numpy/core/include -Ibuild/src.linux-x86_64-3.10/numpy/distutils/include -I/home/ykliu/apps/miniconda3/envs/csi/include/python3.10

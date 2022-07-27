@@ -1,0 +1,3 @@
+build/temp.linux-x86_64-3.8/src/disloc3d.o: src/disloc3d.cpp src/dc3d.h \
+ src/disloc3d.h
+commandline: -Isrc/ -I/home/ykliu/apps/miniconda3/lib/python3.8/site-packages/numpy/core/include/numpy -I/home/ykliu/apps/miniconda3/lib/python3.8/site-packages/numpy/core/include -Ibuild/src.linux-x86_64-3.8/numpy/distutils/include -I/home/ykliu/apps/miniconda3/include/python3.8 -c-msse -msse2 -msse3-Isrc/ -I/home/ykliu/apps/miniconda3/lib/python3.8/site-packages/numpy/core/include/numpy -I/home/ykliu/apps/miniconda3/lib/python3.8/site-packages/numpy/core/include -Ibuild/src.linux-x86_64-3.8/numpy/distutils/include -I/home/ykliu/apps/miniconda3/include/python3.8
